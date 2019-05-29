@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="./data/data.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>DEKEL Dashboard</h2>
+      </body>
+<body>
+    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+    <br>
+
+    <table id="driverTable" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Driver Node</th>
+          <th>Driven By</th>
+          <th>Strategies Affected</th>
+          <th>Most Probable ISO Enable</th>
+        </tr>
+      </thead>
+    </table>
+
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $('#driverTable').DataTable({
+        data: ISO_STRATCONTROL_GLITCHcom0cmnlogiccmn_suswellisolation_en_h,
+        "searching": false,
+        paging: false,
+        columns: [{
+            title: "Driver Node"
+          },
+          {
+            title: "Driven By"
+          },
+          {
+            title: "Strategies Affected"
+          },
+          {
+            title: "Most Probable ISO Enable"
+          },
+        ]
+      });
+      $("#myInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#driverTable tr").filter(function () {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

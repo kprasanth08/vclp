@@ -1,0 +1,938 @@
+
+  -----------------------------------------------------------------------------
+  Report Summary
+  -----------------------------------------------------------------------------
+  Product Info
+    Name    : VC Static Master Shell
+    Version : N-2017.12-SP2-5 -- Nov 15, 2018
+
+  Report Info
+    Created : May 12, 2019  10:49:11
+    Options
+      -limit 0
+      -tag {ISO_STRATCONTROL_GLITCH}
+
+
+  -----------------------------------------------------------------------------
+  Management Summary
+  -----------------------------------------------------------------------------
+  Stage  Family         Errors  Warnings     Infos
+  -----  -----------  --------  --------  --------
+  UPF    Isolation          90         0         0
+  -----  -----------  --------  --------  --------
+  Total                     90         0         0
+
+
+  -----------------------------------------------------------------------------
+  Tree Summary
+  -----------------------------------------------------------------------------
+  Severity  Stage  Tag                        Count
+  --------  -----  -------------------------  -----
+  error     UPF    ISO_STRATCONTROL_GLITCH       90
+  --------  -----  -------------------------  -----
+  Total                                          90
+
+
+
+  -----------------------------------------------------------------------------
+  ISO_STRATCONTROL_GLITCH  (90 errors/0 waived)
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68175
+  UPFNet
+    NetName      : com0/cmnlogic/cmn_suswell/os_dg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_sus/cmn_diggt_to_sus_and
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68176
+  UPFNet
+    NetName      : com0/cmnlogic/cmn_vnnaonwell/oa_dg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ugt/cldiggt_to_dl_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68177
+  UPFNet
+    NetName      : com0/cmnlogic/cmn_vnnaonwell/oa_sus_isolation_en_h_post_scan
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_vnnaonwell/oa_sus_isolation_en_h_post_scan
+  Strategy       : com0/cmn_ramsus_uc1_ram0/cmn_vccdsus_to_ramsus_or_iso_uc1_ram0
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68178
+  UPFNet
+    NetName      : com0/cmnlogic/core_out_els/o_dig_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ugt_socside_out/cl_and_iso_core_out_dig
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68179
+  UPFNet
+    NetName      : com0/cmnlogic/uc_unit/ramwrap/uc_ramwrap_iso_inst/o_diggt_to_ram_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0_no_lkf
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68180
+  UPFNet
+    NetName      : com0/cmnlogic/uc_unit/ramwrap/uc_ramwrap_iso_inst1/o_diggt_to_ram_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ramsus_uc1_ram1/cmn_diggt_to_ramsus_and_uc1_ram1
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68181
+  UPFNet
+    NetName      : com0/cmnlogic/uc_unit/uc_iso_inst/o_diggt_to_ram_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68182
+  UPFNet
+    NetName      : com0/cmnlogic/uc_unit_x16/ramwrap/uc_ramwrap_iso_inst/o_diggt_to_ram_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2_ram0
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68183
+  UPFNet
+    NetName      : com0/cmnlogic/uc_unit_x16/ramwrap/uc_ramwrap_iso_inst1/o_diggt_to_ram_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2_ram1
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68184
+  UPFNet
+    NetName      : com0/cmnlogic/uc_unit_x16/uc_iso_inst/o_diggt_to_ram_isolation_en
+    NetType      : Design/UPF
+  DriverNode     : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Strategy       : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68185
+  UPFNet
+    NetName      : lane_0/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_0/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_0/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68186
+  UPFNet
+    NetName      : lane_0/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_0/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68187
+  UPFNet
+    NetName      : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_0/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68188
+  UPFNet
+    NetName      : lane_0/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_0/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_0/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68189
+  UPFNet
+    NetName      : lane_0/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68190
+  UPFNet
+    NetName      : lane_1/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_1/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_1/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68191
+  UPFNet
+    NetName      : lane_1/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_1/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68192
+  UPFNet
+    NetName      : lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_1/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68193
+  UPFNet
+    NetName      : lane_1/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_1/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_1/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68194
+  UPFNet
+    NetName      : lane_1/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_1/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68195
+  UPFNet
+    NetName      : lane_10/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_10/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_10/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68196
+  UPFNet
+    NetName      : lane_10/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_10/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68197
+  UPFNet
+    NetName      : lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_10/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68198
+  UPFNet
+    NetName      : lane_10/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_10/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_10/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68199
+  UPFNet
+    NetName      : lane_10/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_10/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68200
+  UPFNet
+    NetName      : lane_11/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_11/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_11/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68201
+  UPFNet
+    NetName      : lane_11/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_11/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68202
+  UPFNet
+    NetName      : lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_11/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68203
+  UPFNet
+    NetName      : lane_11/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_11/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_11/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68204
+  UPFNet
+    NetName      : lane_11/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_11/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68205
+  UPFNet
+    NetName      : lane_12/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_12/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_12/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68206
+  UPFNet
+    NetName      : lane_12/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_12/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68207
+  UPFNet
+    NetName      : lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_12/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68208
+  UPFNet
+    NetName      : lane_12/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_12/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_12/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68209
+  UPFNet
+    NetName      : lane_12/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_12/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68210
+  UPFNet
+    NetName      : lane_13/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_13/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_13/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68211
+  UPFNet
+    NetName      : lane_13/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_13/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68212
+  UPFNet
+    NetName      : lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_13/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68213
+  UPFNet
+    NetName      : lane_13/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_13/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_13/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68214
+  UPFNet
+    NetName      : lane_13/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_13/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68215
+  UPFNet
+    NetName      : lane_14/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_14/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_14/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68216
+  UPFNet
+    NetName      : lane_14/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_14/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68217
+  UPFNet
+    NetName      : lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_14/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68218
+  UPFNet
+    NetName      : lane_14/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_14/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_14/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68219
+  UPFNet
+    NetName      : lane_14/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_14/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68220
+  UPFNet
+    NetName      : lane_15/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_15/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_15/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68221
+  UPFNet
+    NetName      : lane_15/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_15/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68222
+  UPFNet
+    NetName      : lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_15/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68223
+  UPFNet
+    NetName      : lane_15/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_15/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_15/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68224
+  UPFNet
+    NetName      : lane_15/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_15/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68225
+  UPFNet
+    NetName      : lane_2/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_2/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_2/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68226
+  UPFNet
+    NetName      : lane_2/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_2/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68227
+  UPFNet
+    NetName      : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_2/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68228
+  UPFNet
+    NetName      : lane_2/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_2/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_2/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68229
+  UPFNet
+    NetName      : lane_2/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_2/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68230
+  UPFNet
+    NetName      : lane_3/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_3/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_3/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68231
+  UPFNet
+    NetName      : lane_3/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_3/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68232
+  UPFNet
+    NetName      : lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_3/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68233
+  UPFNet
+    NetName      : lane_3/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_3/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_3/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68234
+  UPFNet
+    NetName      : lane_3/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_3/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68235
+  UPFNet
+    NetName      : lane_4/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_4/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_4/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68236
+  UPFNet
+    NetName      : lane_4/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_4/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68237
+  UPFNet
+    NetName      : lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_4/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68238
+  UPFNet
+    NetName      : lane_4/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_4/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_4/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68239
+  UPFNet
+    NetName      : lane_4/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_4/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68240
+  UPFNet
+    NetName      : lane_5/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_5/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_5/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68241
+  UPFNet
+    NetName      : lane_5/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_5/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68242
+  UPFNet
+    NetName      : lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_5/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68243
+  UPFNet
+    NetName      : lane_5/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_5/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_5/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68244
+  UPFNet
+    NetName      : lane_5/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_5/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68245
+  UPFNet
+    NetName      : lane_6/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_6/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_6/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68246
+  UPFNet
+    NetName      : lane_6/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_6/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68247
+  UPFNet
+    NetName      : lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_6/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68248
+  UPFNet
+    NetName      : lane_6/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_6/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_6/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68249
+  UPFNet
+    NetName      : lane_6/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_6/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68250
+  UPFNet
+    NetName      : lane_7/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_7/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_7/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68251
+  UPFNet
+    NetName      : lane_7/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_7/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68252
+  UPFNet
+    NetName      : lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_7/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68253
+  UPFNet
+    NetName      : lane_7/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_7/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_7/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68254
+  UPFNet
+    NetName      : lane_7/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_7/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68255
+  UPFNet
+    NetName      : lane_8/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_8/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_8/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68256
+  UPFNet
+    NetName      : lane_8/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_8/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68257
+  UPFNet
+    NetName      : lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_8/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68258
+  UPFNet
+    NetName      : lane_8/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_8/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_8/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68259
+  UPFNet
+    NetName      : lane_8/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_8/dl_dig_to_ana/dl_dig_to_ana_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68260
+  UPFNet
+    NetName      : lane_9/core_output_els/o_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_9/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_9/dl_ugt/and_iso_susgt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68261
+  UPFNet
+    NetName      : lane_9/core_output_els/o_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_9/dl_ugt/and_iso_diggt_dig_out
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68262
+  UPFNet
+    NetName      : lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/os_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_9/dl_sus/dl_dig_to_sus_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68263
+  UPFNet
+    NetName      : lane_9/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_sus_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_9/pcs_acu_glue/acu_top0/acu_vnnaon_top0/acu_aonwell_pwrctrl0/oa_sus_isolation_en_h
+  Strategy       : lane_9/dl_ugt/dl_sus_to_ugt_and_iso
+
+  -----------------------------------------------------------------------------
+  Tag            : ISO_STRATCONTROL_GLITCH
+  Description    : Isolation control signal [UPFNet] is driven by [DriverNode] which is not a state signal.
+  Violation      : LP:68264
+  UPFNet
+    NetName      : lane_9/pcs_acu_glue/acu_top0/acu_vnnaon_top0/oa_vccdg_isolation_en_h
+    NetType      : Design/UPF
+  DriverNode     : lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h
+  Strategy       : lane_9/dl_dig_to_ana/dl_dig_to_ana_and_iso
+

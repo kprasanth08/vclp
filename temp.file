@@ -1,0 +1,535 @@
+
+  -----------------------------------------------------------------------------
+  Report Summary
+  -----------------------------------------------------------------------------
+  Product Info
+    Name    : VC Static Master Shell
+    Version : N-2017.12-SP2-5 -- Nov 15, 2018
+
+  Report Info
+    Created : May 13, 2019  23:59:04
+    Options:
+      -limit 0
+      -tag {RET_CONTROL_GLITCH}
+      -filter {SignalType == Save}
+
+
+  -----------------------------------------------------------------------------
+  Management Summary
+  -----------------------------------------------------------------------------
+  Stage  Family         Errors  Warnings     Infos
+  -----  -----------  --------  --------  --------
+  UPF    Retention          33         0         0
+  -----  -----------  --------  --------  --------
+  Total                     33         0         0
+
+
+  -----------------------------------------------------------------------------
+  Tree Summary
+  -----------------------------------------------------------------------------
+  Severity  Stage  Tag                   Count
+  --------  -----  --------------------  -----
+  error     UPF    RET_CONTROL_GLITCH       33
+  --------  -----  --------------------  -----
+  Total                                     33
+
+
+
+  -----------------------------------------------------------------------------
+  RET_CONTROL_GLITCH  (33 errors/0 waived)
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72490
+  SignalType     : Save
+  DesignNet:
+    NetName      : com0/cmnlogic/ret_sleep_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : com0/cmnlogic/cmn_suswell/I_MUX_ret_sleep_en_h/OUT
+  UPFNet:
+    NetName      : com0/cmnlogic/cmn_suswell/o_ret_sleep_en_h
+    NetType      : Design/UPF
+  Strategy       : com0/cmnlane/cl_fuse_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72491
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_0/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_0/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_0/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72492
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_0/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_0/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72493
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_1/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_1/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_1/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72494
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_1/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_1/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72495
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_10/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_10/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_10/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72496
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_10/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_10/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72497
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_11/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_11/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_11/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72498
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_11/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_11/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72499
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_12/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_12/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_12/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72500
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_12/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_12/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72501
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_13/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_13/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_13/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72502
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_13/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_13/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72503
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_14/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_14/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_14/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72504
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_14/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_14/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72505
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_15/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_15/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_15/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72506
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_15/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_15/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72507
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_2/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_2/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_2/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72508
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_2/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_2/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72509
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_3/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_3/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_3/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72510
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_3/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_3/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72511
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_4/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_4/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_4/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72512
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_4/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_4/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72513
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_5/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_5/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_5/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72514
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_5/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_5/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72515
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_6/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_6/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_6/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72516
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_6/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_6/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72517
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_7/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_7/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_7/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72518
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_7/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_7/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72519
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_8/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_8/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_8/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72520
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_8/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_8/datablock/dl_retention_flop_pclk
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72521
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_9/s_vccdg_retention_en_h
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+  UPFNet:
+    NetName      : lane_9/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+    NetType      : Design/UPF
+  Strategy       : lane_9/datablock/dl_retention_flop
+
+  -----------------------------------------------------------------------------
+  Tag            : RET_CONTROL_GLITCH
+  Description    : Retention [SignalType] signal [DesignNet] is driven by [DesignDriver] and not driven by a state signal
+  Violation      : LP:72522
+  SignalType     : Save
+  DesignNet:
+    NetName      : lane_9/retention_en_pclk
+    NetType      : Design
+  DesignDriver:
+    DrivingNode  : lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+  UPFNet:
+    NetName      : lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+    NetType      : Design/UPF
+  Strategy       : lane_9/datablock/dl_retention_flop_pclk
+
+-----------------------------------

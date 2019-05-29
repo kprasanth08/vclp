@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ceb1924-4f88-4ad1-8c4d-074ab78ea6e0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrambler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#24#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReportParser/Parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="99" column="23" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Connector/sqldb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <element signature="e#20#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Logger/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReportParser/generate_proof.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReportParser/reportconfig.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="76" />
+              <folding>
+                <marker date="1559125567269" expanded="true" signature="164:814" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>os.sys</find>
+      <find>popen</find>
+      <find>data_array</find>
+      <find>tag</find>
+      <find>6 lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_dig_isolation_en_h_pre_scan/Q</find>
+      <find>CREATE</find>
+      <find>dict</find>
+      <find>Trace</find>
+      <find>Trac</find>
+      <find>HTMLReport</find>
+      <find>com0/cmn_sus/cmn_diggt_to_sus_and</find>
+      <find>ISO_STRATCONTROL_GLITCH_com0cmnlogiccmn_suswellisolation_en_h_TracePath</find>
+      <find>h2</find>
+      <find>driver_nodes</find>
+      <find>print</find>
+      <find>run</find>
+      <find>with</find>
+      <find>Total</find>
+      <find>tag_type</find>
+      <find>myInput</find>
+      <find>Trace Path Details for</find>
+      <find>cell-border</find>
+      <find>logFormatter</find>
+      <find>log</find>
+      <find>logfacade</find>
+      <find>log_facade</find>
+      <find>sleep</find>
+      <find>slee</find>
+      <find>write</find>
+      <find>analyze_proof</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.data_array</replace>
+      <replace>self.tag</replace>
+      <replace>h4</replace>
+      <replace>data_dict</replace>
+      <replace>log</replace>
+      <replace>log_formatter</replace>
+      <replace>stripe</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\pkurapat\Downloads\Q2-HGH-Tool</dir>
+      <dir>C:\Users\pkurapat\Downloads\autom8-display\pack\AutoM8</dir>
+      <dir>C:\Users\pkurapat\Downloads\stork</dir>
+      <dir>C:\Users\pkurapat\Desktop\vclp_debug</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.editorconfig" />
+        <option value="$PROJECT_DIR$/ReportParser/config" />
+        <option value="$PROJECT_DIR$/ReportParser/adsf" />
+        <option value="$PROJECT_DIR$/Connector/mongodb.py" />
+        <option value="$PROJECT_DIR$/ReportParser/reportconfig.ini" />
+        <option value="$PROJECT_DIR$/Connector/sqldb.py" />
+        <option value="$PROJECT_DIR$/html_gen/HtmlGen.py" />
+        <option value="$PROJECT_DIR$/HtmlReport/ISO_STRATCONTROL_GLITCH.html" />
+        <option value="$PROJECT_DIR$/html_gen/html_gen.py" />
+        <option value="$PROJECT_DIR$/html_gen/htmldata.py" />
+        <option value="$PROJECT_DIR$/Logger/logger.py" />
+        <option value="$PROJECT_DIR$/ReportParser/generate_proof.py" />
+        <option value="$PROJECT_DIR$/ReportParser/reportconfig.yaml" />
+        <option value="$PROJECT_DIR$/ReportParser/Parser.py" />
+        <option value="$PROJECT_DIR$/scrambler.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vclp_debug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vclp_debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vclp_debug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vclp_debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Connector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vclp_debug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vclp_debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Logger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vclp_debug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vclp_debug" type="462c0819:PsiDirectoryNode" />
+              <item name="ReportParser" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="EditorConfig" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/stork" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pkurapat\Desktop\vclp_debug" />
+      <recent name="C:\Users\pkurapat\Desktop\vclp_debug\ReportParser" />
+      <recent name="C:\Users\pkurapat\Desktop\vclp_debug\Connector" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pkurapat\Desktop\vclp_debug\ReportParser" />
+      <recent name="C:\Users\pkurapat\Desktop\vclp_debug" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.scrambler">
+    <configuration name="Parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vclp_debug" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReportParser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReportParser/Parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scrambler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vclp_debug" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrambler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scrambler" />
+        <item itemvalue="Python.Parser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\pkurapat\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ceb1924-4f88-4ad1-8c4d-074ab78ea6e0" name="Default Changelist" comment="" />
+      <created>1558673781538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558673781538</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.20517737" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3988495" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.21451788" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Connector/mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/report.rpt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/RET_CONTROL_GLITCH_SAVE.rpt">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/autom8-display/pack/AutoM8/acl/LA_SyncNBuild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/sql/stork2_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/sql/example_data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/preruncheck.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/flowadditionaldata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/flow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2574" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/event_receiver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/error_reporter.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/ctaeditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3696" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/global_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1259" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/process.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/releaseenv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/release/release_state_completed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/release/release_state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/release/release.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18111" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/databahn/databahn_project.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/release/exec_checker_status_importer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/release/release_state_machine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/autom8-display/pack/AutoM8/database/XML2SQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#956#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/createtarball.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="100" column="10" selection-start-line="100" selection-end-line="102" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/autom8-display/pack/AutoM8/acl/meta_builds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1337">
+          <caret line="75" column="10" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/ISO_STRATCONTROL_GLITCH_NORMAL.rpt">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/auto_proof_iso_stratctrl_gl.tcl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="173" lean-forward="true" selection-start-line="4" selection-start-column="173" selection-end-line="4" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/ISO_STRATCONTROL_GLITCH_PROOFS.rpt">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auto_Proof_ISO_STRATCONTROL_GLITCH.tcl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/release/release_state_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python3/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HtmlReport/data/driverdata.js" />
+    <entry file="file://$PROJECT_DIR$/HtmlReport/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HtmlReport/ISO_STRATCONTROL_GLITCH.js" />
+    <entry file="file://$PROJECT_DIR$/ISO_STRATCONTROL_GLITCH.js" />
+    <entry file="file://$PROJECT_DIR$/HtmlReport/ISO_STRATCONTROL_GLITCH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="e#672#693#0" expanded="true" />
+            <element signature="e#694#720#0" expanded="true" />
+            <element signature="e#889#907#0" expanded="true" />
+            <element signature="e#1535#1556#0" expanded="true" />
+            <element signature="e#1557#1583#0" expanded="true" />
+            <element signature="e#1760#1778#0" expanded="true" />
+            <element signature="e#2531#2552#0" expanded="true" />
+            <element signature="e#2553#2579#0" expanded="true" />
+            <element signature="e#2788#2806#0" expanded="true" />
+            <element signature="e#3474#3495#0" expanded="true" />
+            <element signature="e#3496#3522#0" expanded="true" />
+            <element signature="e#3739#3757#0" expanded="true" />
+            <element signature="e#4550#4571#0" expanded="true" />
+            <element signature="e#4572#4598#0" expanded="true" />
+            <element signature="e#4859#4877#0" expanded="true" />
+            <element signature="e#5595#5616#0" expanded="true" />
+            <element signature="e#5617#5643#0" expanded="true" />
+            <element signature="e#5912#5930#0" expanded="true" />
+            <element signature="e#6773#6794#0" expanded="true" />
+            <element signature="e#6795#6821#0" expanded="true" />
+            <element signature="e#7084#7102#0" expanded="true" />
+            <element signature="e#7822#7843#0" expanded="true" />
+            <element signature="e#7844#7870#0" expanded="true" />
+            <element signature="e#8141#8159#0" expanded="true" />
+            <element signature="e#9004#9025#0" expanded="true" />
+            <element signature="e#9026#9052#0" expanded="true" />
+            <element signature="e#9313#9331#0" expanded="true" />
+            <element signature="e#10049#10070#0" expanded="true" />
+            <element signature="e#10071#10097#0" expanded="true" />
+            <element signature="e#10366#10384#0" expanded="true" />
+            <element signature="e#11227#11248#0" expanded="true" />
+            <element signature="e#11249#11275#0" expanded="true" />
+            <element signature="e#11538#11556#0" expanded="true" />
+            <element signature="e#12276#12297#0" expanded="true" />
+            <element signature="e#12298#12324#0" expanded="true" />
+            <element signature="e#12595#12613#0" expanded="true" />
+            <element signature="e#13458#13479#0" expanded="true" />
+            <element signature="e#13480#13506#0" expanded="true" />
+            <element signature="e#13769#13787#0" expanded="true" />
+            <element signature="e#14507#14528#0" expanded="true" />
+            <element signature="e#14529#14555#0" expanded="true" />
+            <element signature="e#14826#14844#0" expanded="true" />
+            <element signature="e#15689#15710#0" expanded="true" />
+            <element signature="e#15711#15737#0" expanded="true" />
+            <element signature="e#16002#16020#0" expanded="true" />
+            <element signature="e#16742#16763#0" expanded="true" />
+            <element signature="e#16764#16790#0" expanded="true" />
+            <element signature="e#17063#17081#0" expanded="true" />
+            <element signature="e#17928#17949#0" expanded="true" />
+            <element signature="e#17950#17976#0" expanded="true" />
+            <element signature="e#18239#18257#0" expanded="true" />
+            <element signature="e#18977#18998#0" expanded="true" />
+            <element signature="e#18999#19025#0" expanded="true" />
+            <element signature="e#19296#19314#0" expanded="true" />
+            <element signature="e#20159#20180#0" expanded="true" />
+            <element signature="e#20181#20207#0" expanded="true" />
+            <element signature="e#20472#20490#0" expanded="true" />
+            <element signature="e#21212#21233#0" expanded="true" />
+            <element signature="e#21234#21260#0" expanded="true" />
+            <element signature="e#21533#21551#0" expanded="true" />
+            <element signature="e#22398#22419#0" expanded="true" />
+            <element signature="e#22420#22446#0" expanded="true" />
+            <element signature="e#22709#22727#0" expanded="true" />
+            <element signature="e#23447#23468#0" expanded="true" />
+            <element signature="e#23469#23495#0" expanded="true" />
+            <element signature="e#23766#23784#0" expanded="true" />
+            <element signature="e#24629#24650#0" expanded="true" />
+            <element signature="e#24651#24677#0" expanded="true" />
+            <element signature="e#24942#24960#0" expanded="true" />
+            <element signature="e#25682#25703#0" expanded="true" />
+            <element signature="e#25704#25730#0" expanded="true" />
+            <element signature="e#26003#26021#0" expanded="true" />
+            <element signature="e#26868#26889#0" expanded="true" />
+            <element signature="e#26890#26916#0" expanded="true" />
+            <element signature="e#27179#27197#0" expanded="true" />
+            <element signature="e#27917#27938#0" expanded="true" />
+            <element signature="e#27939#27965#0" expanded="true" />
+            <element signature="e#28236#28254#0" expanded="true" />
+            <element signature="e#29099#29120#0" expanded="true" />
+            <element signature="e#29121#29147#0" expanded="true" />
+            <element signature="e#29412#29430#0" expanded="true" />
+            <element signature="e#30152#30173#0" expanded="true" />
+            <element signature="e#30174#30200#0" expanded="true" />
+            <element signature="e#30473#30491#0" expanded="true" />
+            <element signature="e#31338#31359#0" expanded="true" />
+            <element signature="e#31360#31386#0" expanded="true" />
+            <element signature="e#31649#31667#0" expanded="true" />
+            <element signature="e#32387#32408#0" expanded="true" />
+            <element signature="e#32409#32435#0" expanded="true" />
+            <element signature="e#32706#32724#0" expanded="true" />
+            <element signature="e#33569#33590#0" expanded="true" />
+            <element signature="e#33591#33617#0" expanded="true" />
+            <element signature="e#33882#33900#0" expanded="true" />
+            <element signature="e#34622#34643#0" expanded="true" />
+            <element signature="e#34644#34670#0" expanded="true" />
+            <element signature="e#34943#34961#0" expanded="true" />
+            <element signature="e#35808#35829#0" expanded="true" />
+            <element signature="e#35830#35856#0" expanded="true" />
+            <element signature="e#36119#36137#0" expanded="true" />
+            <element signature="e#36857#36878#0" expanded="true" />
+            <element signature="e#36879#36905#0" expanded="true" />
+            <element signature="e#37176#37194#0" expanded="true" />
+            <element signature="e#38039#38060#0" expanded="true" />
+            <element signature="e#38061#38087#0" expanded="true" />
+            <element signature="e#38352#38370#0" expanded="true" />
+            <element signature="e#39092#39113#0" expanded="true" />
+            <element signature="e#39114#39140#0" expanded="true" />
+            <element signature="e#39413#39431#0" expanded="true" />
+            <element signature="e#40278#40299#0" expanded="true" />
+            <element signature="e#40300#40326#0" expanded="true" />
+            <element signature="e#40587#40605#0" expanded="true" />
+            <element signature="e#41323#41344#0" expanded="true" />
+            <element signature="e#41345#41371#0" expanded="true" />
+            <element signature="e#41640#41658#0" expanded="true" />
+            <element signature="e#42501#42522#0" expanded="true" />
+            <element signature="e#42523#42549#0" expanded="true" />
+            <element signature="e#42812#42830#0" expanded="true" />
+            <element signature="e#43550#43571#0" expanded="true" />
+            <element signature="e#43572#43598#0" expanded="true" />
+            <element signature="e#43869#43887#0" expanded="true" />
+            <element signature="e#44732#44753#0" expanded="true" />
+            <element signature="e#44754#44780#0" expanded="true" />
+            <element signature="e#45041#45059#0" expanded="true" />
+            <element signature="e#45777#45798#0" expanded="true" />
+            <element signature="e#45799#45825#0" expanded="true" />
+            <element signature="e#46094#46112#0" expanded="true" />
+            <element signature="e#46955#46976#0" expanded="true" />
+            <element signature="e#46977#47003#0" expanded="true" />
+            <element signature="e#47266#47284#0" expanded="true" />
+            <element signature="e#48004#48025#0" expanded="true" />
+            <element signature="e#48026#48052#0" expanded="true" />
+            <element signature="e#48323#48341#0" expanded="true" />
+            <element signature="e#49186#49207#0" expanded="true" />
+            <element signature="e#49208#49234#0" expanded="true" />
+            <element signature="e#49495#49513#0" expanded="true" />
+            <element signature="e#50231#50252#0" expanded="true" />
+            <element signature="e#50253#50279#0" expanded="true" />
+            <element signature="e#50548#50566#0" expanded="true" />
+            <element signature="e#51409#51430#0" expanded="true" />
+            <element signature="e#51431#51457#0" expanded="true" />
+            <element signature="e#51720#51738#0" expanded="true" />
+            <element signature="e#52458#52479#0" expanded="true" />
+            <element signature="e#52480#52506#0" expanded="true" />
+            <element signature="e#52777#52795#0" expanded="true" />
+            <element signature="e#53640#53661#0" expanded="true" />
+            <element signature="e#53662#53688#0" expanded="true" />
+            <element signature="e#53949#53967#0" expanded="true" />
+            <element signature="e#54685#54706#0" expanded="true" />
+            <element signature="e#54707#54733#0" expanded="true" />
+            <element signature="e#55002#55020#0" expanded="true" />
+            <element signature="e#55863#55884#0" expanded="true" />
+            <element signature="e#55885#55911#0" expanded="true" />
+            <element signature="e#56174#56192#0" expanded="true" />
+            <element signature="e#56912#56933#0" expanded="true" />
+            <element signature="e#56934#56960#0" expanded="true" />
+            <element signature="e#57231#57249#0" expanded="true" />
+            <element signature="e#58094#58115#0" expanded="true" />
+            <element signature="e#58116#58142#0" expanded="true" />
+            <element signature="e#58403#58421#0" expanded="true" />
+            <element signature="e#59139#59160#0" expanded="true" />
+            <element signature="e#59161#59187#0" expanded="true" />
+            <element signature="e#59456#59474#0" expanded="true" />
+            <element signature="e#60317#60338#0" expanded="true" />
+            <element signature="e#60339#60365#0" expanded="true" />
+            <element signature="e#60628#60646#0" expanded="true" />
+            <element signature="e#61366#61387#0" expanded="true" />
+            <element signature="e#61388#61414#0" expanded="true" />
+            <element signature="e#61685#61703#0" expanded="true" />
+            <element signature="e#62548#62569#0" expanded="true" />
+            <element signature="e#62570#62596#0" expanded="true" />
+            <element signature="e#62857#62875#0" expanded="true" />
+            <element signature="e#63593#63614#0" expanded="true" />
+            <element signature="e#63615#63641#0" expanded="true" />
+            <element signature="e#63910#63928#0" expanded="true" />
+            <element signature="e#64771#64792#0" expanded="true" />
+            <element signature="e#64793#64819#0" expanded="true" />
+            <element signature="e#65082#65100#0" expanded="true" />
+            <element signature="e#65820#65841#0" expanded="true" />
+            <element signature="e#65842#65868#0" expanded="true" />
+            <element signature="e#66139#66157#0" expanded="true" />
+            <element signature="e#67002#67023#0" expanded="true" />
+            <element signature="e#67024#67050#0" expanded="true" />
+            <element signature="e#67311#67329#0" expanded="true" />
+            <element signature="e#68047#68068#0" expanded="true" />
+            <element signature="e#68069#68095#0" expanded="true" />
+            <element signature="e#68364#68382#0" expanded="true" />
+            <element signature="e#69225#69246#0" expanded="true" />
+            <element signature="e#69247#69273#0" expanded="true" />
+            <element signature="e#69536#69554#0" expanded="true" />
+            <element signature="e#70274#70295#0" expanded="true" />
+            <element signature="e#70296#70322#0" expanded="true" />
+            <element signature="e#70593#70611#0" expanded="true" />
+            <element signature="e#71456#71477#0" expanded="true" />
+            <element signature="e#71478#71504#0" expanded="true" />
+            <element signature="e#71765#71783#0" expanded="true" />
+            <element signature="e#72501#72522#0" expanded="true" />
+            <element signature="e#72523#72549#0" expanded="true" />
+            <element signature="e#72818#72836#0" expanded="true" />
+            <element signature="e#73679#73700#0" expanded="true" />
+            <element signature="e#73701#73727#0" expanded="true" />
+            <element signature="e#73990#74008#0" expanded="true" />
+            <element signature="e#74728#74749#0" expanded="true" />
+            <element signature="e#74750#74776#0" expanded="true" />
+            <element signature="e#63141#63159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISO_STRATCONTROL_GLITCH_NORMAL.rpt">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RET_CONTROL_GLITCH_SAVE_PROOFS.rpt">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/projectsheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/lib/traitutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/stork/systemtest/test_saved_state/test_saved_state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_gen/htmldata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_full_tag_report.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_gen/html_gen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/generate_proof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/reportconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="76" />
+          <folding>
+            <marker date="1559125567269" expanded="true" signature="164:814" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logger/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Connector/sqldb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#20#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrambler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportParser/Parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="99" column="23" lean-forward="true" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,1309 @@
+##ALL PROOF FOR RET_CONTROL_GLITCH TYPE
+##Category-Header: Save Paths (33)
+Start-of lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_4/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_4/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_4/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_5/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_4/datablock/dl_retention_flop%lane_4/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_4/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_15/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_15/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_14/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_14/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_14/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_14/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_13/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_13/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_13/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_13/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_12/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_12/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_12/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_12/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_11/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                              output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                  BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                     BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                 output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                              SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_15/datablock/dl_retention_flop_pclk%lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_15/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_15/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_15/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_14/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_14/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_14/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_14/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_13/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_13/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_13/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_13/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_12/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_12/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_12/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_12/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_11/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                      output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                          BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                             BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                      SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_15/datablock/dl_retention_flop%lane_15/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_15/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_2/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_2/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_2/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_3/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_3/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_3/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_3/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_4/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_2/datablock/dl_retention_flop%lane_2/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_14/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_14/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_14/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_13/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_13/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_13/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_13/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_12/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_12/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_12/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_12/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_11/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                      output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                          BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                             BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                      SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_14/datablock/dl_retention_flop%lane_14/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of com0/cmnlogic/cmn_suswell/I_MUX_ret_sleep_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ com0/cmnlogic/cmn_suswell/I_MUX_ret_sleep_en_h/SEL                                                                                                    MUX         
+ com0/cmnlogic/cmn_suswell/i_dfx_fscan_mode                                                                                                     input pin   
+ com0/cmnlogic/cmn_vnnaonwell/o_dfx_fscan_mode_prot                                                                                                    output pin  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/o_dfx_fscan_mode_prot                                                                                    output pin  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/dfx_fscan_mode_bi_prot/o                                                                                 output pin  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/dfx_fscan_mode_bi_prot/ctech_lib_clk_and_inst/clkout                                                     output pin  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/dfx_fscan_mode_bi_prot/ctech_lib_clk_and_inst/ctech_lib_clk_and_dcszo2/clkout                            output pin  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/dfx_fscan_mode_bi_prot/ctech_lib_clk_and_inst/ctech_lib_clk_and_dcszo2/ctech_lib_clk_inv_dcszo1/clkout   INVERTER    
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/dfx_fscan_mode_bi_prot/ctech_lib_clk_and_inst/ctech_lib_clk_and_dcszo1/clkout                            output pin  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/dfx_fscan_mode_bi_prot/ctech_lib_clk_and_inst/ctech_lib_clk_and_dcszo1/ctech_lib_clk_nand_dcszo1/clkout  NAND        
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/I_BNOT_dfx_bi_mode_b/OUT                                                                                 BITWISE_NOT 
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/I_OR_dfx_bi_mode/OUT                                                                                     BITWISE_OR  
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/I_AND_N_13/OUT                                                                                           BITWISE_AND 
+ com0/cmnlogic/cmn_vnnaonwell/bi_scan_disable/I_BNOT_N_12/OUT                                                                                          BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/o_enable_scan_isolation                                                                                                    output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/o_enable_scan_isolation                                                                                  output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[28]                                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[28]                                                                       SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family com0/cmnlogic/cmn_suswell/I_MUX_ret_sleep_en_h/OUT%com0/cmnlane/cl_fuse_retention_flop%com0/cmnlogic/cmn_suswell/o_ret_sleep_en_h
+End-of com0/cmnlogic/cmn_suswell/I_MUX_ret_sleep_en_h/OUT driver
+
+
+Start-of lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_6/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_6/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_6/datablock/dl_retention_flop_pclk%lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_6/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_10/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_10/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_10/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_9/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                      output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                          BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                             BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                      SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_10/datablock/dl_retention_flop%lane_10/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_10/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_3/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_3/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_4/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_3/datablock/dl_retention_flop_pclk%lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_3/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_12/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_12/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_12/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_11/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                      output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                          BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                             BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                      SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_12/datablock/dl_retention_flop%lane_12/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_12/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_4/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_4/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_5/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_4/datablock/dl_retention_flop_pclk%lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_7/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_7/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_7/i_abutdfx_fscan_mode                                                                         input pin   
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_7/datablock/dl_retention_flop%lane_7/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_12/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_12/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_11/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                              output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                  BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                     BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                 output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                              SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_12/datablock/dl_retention_flop_pclk%lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_10/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_10/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_9/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                              output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                  BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                     BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                 output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                              SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_10/datablock/dl_retention_flop_pclk%lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_8/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_8/i_abutdfx_fscan_mode                                                                                 input pin   
+ com0/od_abut_right_dfx_fscan_mode                                                                           output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                  output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                             output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_8/datablock/dl_retention_flop_pclk%lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_3/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_3/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_3/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_4/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_3/datablock/dl_retention_flop%lane_3/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_3/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_8/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_8/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_8/i_abutdfx_fscan_mode                                                                         input pin   
+ com0/od_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                          output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                     output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_8/datablock/dl_retention_flop%lane_8/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_14/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_14/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_13/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_13/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_13/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_13/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_12/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_12/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_12/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_12/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_11/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                              output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                  BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                     BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                 output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                              SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_14/datablock/dl_retention_flop_pclk%lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_5/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_5/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_5/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_6/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_5/datablock/dl_retention_flop%lane_5/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_5/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_2/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_2/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_3/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_3/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_3/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_3/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_4/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_2/datablock/dl_retention_flop_pclk%lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_13/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_13/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_12/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_12/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_12/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_12/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_11/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                              output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                  BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                     BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                 output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                              SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_13/datablock/dl_retention_flop_pclk%lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_13/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_9/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_9/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_9/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_8/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                          output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                     output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_9/datablock/dl_retention_flop%lane_9/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_9/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_7/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_7/i_abutdfx_fscan_mode                                                                                 input pin   
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_7/datablock/dl_retention_flop_pclk%lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_7/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_9/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_9/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_8/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                           output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                  output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                             output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_9/datablock/dl_retention_flop_pclk%lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_9/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_11/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_11/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_11/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_10/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                      output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                          BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                             BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                      SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_11/datablock/dl_retention_flop%lane_11/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_0/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_0/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_1/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_1/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_1/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_1/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_2/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_2/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_2/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_2/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_3/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_3/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_3/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_3/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_4/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_0/datablock/dl_retention_flop_pclk%lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_5/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_5/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_6/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_5/datablock/dl_retention_flop_pclk%lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_6/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_6/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_6/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_6/datablock/dl_retention_flop%lane_6/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_6/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_11/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_11/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_10/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                                  output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                        output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                               output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                             output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                              output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                                  BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                     BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                 output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                              SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_11/datablock/dl_retention_flop_pclk%lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_0/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_0/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_0/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_1/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_1/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_1/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_1/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_2/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_2/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_2/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_2/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_3/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_3/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_3/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_3/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_4/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_0/datablock/dl_retention_flop%lane_0/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                     Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/SEL  MUX         
+ lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_dfx_fscan_mode               input pin   
+ lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/o_dfx_fscan_mode_aon           output pin  
+ lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_dfx_fscan_mode                                   input pin   
+ lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/i_dfx_fscan_mode                                                 input pin   
+ lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/is_dfx_fscan_mode                                                    input pin   
+ lane_1/pcs_acu_glue/id_dfx_fscan_mode                                                                       input pin   
+ lane_1/i_abutdfx_fscan_mode                                                                                 input pin   
+ lane_2/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_2/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_2/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_2/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_3/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_3/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_3/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_3/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_4/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                                 output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                                       output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                              output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                            output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                            output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                                   output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                               output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                        output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                                 BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                                    BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                                output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                              output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                               output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                             SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT%lane_1/datablock/dl_retention_flop_pclk%lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_retention_en_pclk
+End-of lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/I_MUX_o_retention_en_pclk/OUT driver
+
+
+Start-of lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                                Type        
+ ---------------------------------------------------------------------------------------------------- ------------
+ lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_13/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_13/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_13/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_12/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_12/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_12/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_12/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_11/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_11/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_11/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_11/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_10/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_10/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_10/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_10/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_9/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_9/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_9/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_9/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ lane_8/o_abutdfx_fscan_mode                                                                          output pin  
+ lane_8/pcs_acu_glue/og_dfx_fscan_mode                                                                output pin  
+ lane_8/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                       output pin  
+ lane_8/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                     output pin  
+ com0/od_abut_right_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_right_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_right_abut/od_abut_right_dfx_fscan_mode                                      output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_right_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_332/OUT                                          BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                             BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                         output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                      SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_13/datablock/dl_retention_flop%lane_13/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_13/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+
+Start-of lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT
+[Info] REPORT_TRACE_PATHS_HEADER: path info:
+ Point                                                                                               Type        
+ --------------------------------------------------------------------------------------------------- ------------
+ lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/SEL  MUX         
+ lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/ig_dfx_fscan_mode                input pin   
+ lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/ig_dfx_fscan_mode                                     input pin   
+ lane_1/pcs_acu_glue/acu_top0/ig_dfx_fscan_mode                                                      input pin   
+ lane_1/pcs_acu_glue/id_dfx_fscan_mode                                                               input pin   
+ lane_1/i_abutdfx_fscan_mode                                                                         input pin   
+ lane_2/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_2/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_2/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_2/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_3/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_3/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_3/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_3/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_4/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_4/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_4/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_4/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_5/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_5/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_5/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_5/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_6/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_6/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_6/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_6/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ lane_7/o_abutdfx_fscan_mode                                                                         output pin  
+ lane_7/pcs_acu_glue/og_dfx_fscan_mode                                                               output pin  
+ lane_7/pcs_acu_glue/acu_top0/og_dfx_fscan_mode                                                      output pin  
+ lane_7/pcs_acu_glue/acu_top0/acu_gaonwell_top0/og_dfx_fscan_mode                                    output pin  
+ com0/od_abut_left_dfx_fscan_mode                                                                    output pin  
+ com0/cmnlogic/og_abut_left_dfx_fscan_mode                                                           output pin  
+ com0/cmnlogic/i_cpc_cmn_left_abut/od_abut_left_dfx_fscan_mode                                       output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/og_abut_left_dfx_fscan_mode                                output pin  
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_AND__ASN_322/OUT                                         BITWISE_AND 
+ com0/cmnlogic/i_cpc_cmn_aongated_outputs/I_BNOT_N_26/OUT                                            BITWISE_NOT 
+ com0/cmnlogic/i_cmn_dfx_ug/burnin_enable_sus                                                        output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/burnin_enable_sus                                      output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout[27]                       output pin  
+ com0/cmnlogic/i_cmn_dfx_ug/cmn_dfxmaster_sus/tap_sus_cfg_datareg/pdataout/Q[27]                     SEQ_FF      
+----------------------------------------------------------------------
+Elements-Family lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT%lane_1/datablock/dl_retention_flop%lane_1/pcs_acu_glue/acu_top0/os_vccdg_retention_en_h
+End-of lane_1/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/I_MUX_os_dig_retention_en_h/OUT driver
+
+

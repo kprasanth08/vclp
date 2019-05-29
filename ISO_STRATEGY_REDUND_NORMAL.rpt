@@ -1,0 +1,3711 @@
+
+  -----------------------------------------------------------------------------
+  Report Summary
+  -----------------------------------------------------------------------------
+  Product Info
+    Name    : VC Static Master Shell
+    Version : N-2017.12-SP2-5 -- Nov 15, 2018
+
+  Report Info
+    Created : May 16, 2019  06:07:34
+    Options
+      -tag {ISO_STRATEGY_REDUND}
+
+
+  -----------------------------------------------------------------------------
+  Management Summary
+  -----------------------------------------------------------------------------
+  Stage  Family         Errors  Warnings     Infos
+  -----  -----------  --------  --------  --------
+  UPF    Isolation        2997         0         0
+  -----  -----------  --------  --------  --------
+  Total                   2997         0         0
+
+
+  -----------------------------------------------------------------------------
+  Tree Summary
+  -----------------------------------------------------------------------------
+  Severity  Stage  Tag                    Count
+  --------  -----  ---------------------  -----
+  error     UPF    ISO_STRATEGY_REDUND     2997 *
+  --------  -----  ---------------------  -----
+  Total                                    2997
+
+  * The following detailed reports have been limited to 100 per tag.
+
+
+  -----------------------------------------------------------------------------
+  ISO_STRATEGY_REDUND  (2997 errors/0 waived, only 100 shown due to -limit)
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68275
+  Strategy             : lane_2/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  Sink                 : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_enter_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_2/datablock
+  SegmentSinkDomain    : lane_2/datablock
+  LogicSource
+    PinName            : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  LogicSink            : lane_2/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68280
+  Strategy             : lane_7/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_7/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  Sink                 : lane_7/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : lane_7/pcs_acu_glue/acu_top0/acu_suswell_top0/i_pmd_save_done
+    IsHetero           : true
+  SegmentSourceDomain  : lane_7/datablock
+  SegmentSinkDomain    : lane_7/datablock
+  LogicSource
+    PinName            : lane_7/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  LogicSink            : lane_7/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_7/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_7/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68285
+  Strategy             : lane_2/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_2/pcs_acu_glue/acu_top0/acu_ana_control/ana_8bpwrreq/o_pwrack/Q
+  Sink                 : lane_2/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  StrategyNodeInfo
+    StrategyNode       : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/i_anapwrack
+    IsHetero           : true
+  SegmentSourceDomain  : lane_2/datablock
+  SegmentSinkDomain    : lane_2/datablock
+  LogicSource
+    PinName            : lane_2/pcs_acu_glue/acu_top0/acu_ana_control/ana_8bpwrreq/o_pwrack/Q
+  LogicSink            : lane_2/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68291
+  Strategy             : lane_8/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_8/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  Sink                 : lane_8/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : lane_8/pcs_acu_glue/acu_top0/acu_suswell_top0/i_pmd_save_done
+    IsHetero           : true
+  SegmentSourceDomain  : lane_8/datablock
+  SegmentSinkDomain    : lane_8/datablock
+  LogicSource
+    PinName            : lane_8/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  LogicSink            : lane_8/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_8/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_8/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68292
+  Strategy             : lane_0/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/i_cpc_pcs_ami_interface/i_cpc_pcs_ami_inlet_non_acu/o_localtxpresetcoef_valid_ami/Q
+  Sink                 : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  StrategyNodeInfo
+    StrategyNode       : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_localtxcoefvalid
+    IsHetero           : true
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/i_cpc_pcs_ami_interface/i_cpc_pcs_ami_inlet_non_acu/o_localtxpresetcoef_valid_ami/Q
+  LogicSink            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68293
+  Strategy             : lane_2/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_2/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/ldo_dig_control_top/o_ldopwrack_out
+  Sink                 : lane_2/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/i_ldopwrack
+    IsHetero           : true
+  SegmentSourceDomain  : lane_2/datablock
+  SegmentSinkDomain    : lane_2/datablock
+  LogicSource
+    PinName            : lane_2/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/ldo_dig_control_top/o_ldopwrack_out
+  LogicSink            : lane_2/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68295
+  Strategy             : lane_4/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/o_not_gen3
+  Sink                 : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  StrategyNodeInfo
+    StrategyNode       : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_not_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_4/datablock
+  SegmentSinkDomain    : lane_4/datablock
+  LogicSource
+    PinName            : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/o_not_gen3
+  LogicSink            : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_4/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_4/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68296
+  Strategy             : lane_2/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_2/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[0]
+  Sink                 : lane_2/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_2/iso_to_ana/i_txclksel[0]
+  SegmentSourceDomain  : lane_2/datablock
+  SegmentSinkDomain    : lane_2/datablock
+  LogicSource
+    PinName            : lane_2/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[0]
+  LogicSink            : lane_2/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68299
+  Strategy             : lane_14/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/i_cpc_pcs_ami_interface/i_cpc_pcs_ami_inlet_non_acu/o_localtxpresetcoef_valid_ami/Q
+  Sink                 : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  StrategyNodeInfo
+    StrategyNode       : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_localtxcoefvalid
+    IsHetero           : true
+  SegmentSourceDomain  : lane_14/datablock
+  SegmentSinkDomain    : lane_14/datablock
+  LogicSource
+    PinName            : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/i_cpc_pcs_ami_interface/i_cpc_pcs_ami_inlet_non_acu/o_localtxpresetcoef_valid_ami/Q
+  LogicSink            : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_14/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_14/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68302
+  Strategy             : lane_1/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_1/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[0]
+  Sink                 : lane_1/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_1/iso_to_ana/i_txclksel[0]
+  SegmentSourceDomain  : lane_1/datablock
+  SegmentSinkDomain    : lane_1/datablock
+  LogicSource
+    PinName            : lane_1/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[0]
+  LogicSink            : lane_1/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68306
+  Strategy             : lane_11/dl_ugt/dl_dig_to_ugt_clk_iso
+  Source
+    PinName            : lane_11/pmd_abuts/i_dfx_left_bscan_ck_int
+  Sink                 : lane_10/pmd_abuts/i_dfx_left_bscan_ck
+  StrategyNodeInfo
+    StrategyNode       : lane_11/pmd_abuts/dfx_right_bscan_ck
+  SegmentSourceDomain  : lane_11/dl_ugt
+  SegmentSinkDomain    : lane_10/dl_ugt
+  LogicSource
+    PinName            : lane_11/pmd_abuts/i_dfx_left_bscan_ck_int
+  LogicSink            : lane_10/pmd_abuts/i_dfx_left_bscan_ck
+  DomainSource         : lane_11/pmd_abuts/i_dfx_left_bscan_ck_int
+  DomainSink           : lane_10/pmd_abuts/i_dfx_left_bscan_ck
+  SourceInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68307
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_rden
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/final_iram_rden
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_rden
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_rden
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/final_iram_rden
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68309
+  Strategy             : lane_10/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/o_not_gen3
+  Sink                 : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  StrategyNodeInfo
+    StrategyNode       : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_not_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_10/datablock
+  SegmentSinkDomain    : lane_10/datablock
+  LogicSource
+    PinName            : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/o_not_gen3
+  LogicSink            : lane_10/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_10/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_10/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68310
+  Strategy             : lane_2/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_2/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel2/Q
+  Sink                 : lane_2/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel2/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_2/iso_to_ana/i_txclksel2
+  SegmentSourceDomain  : lane_2/datablock
+  SegmentSinkDomain    : lane_2/datablock
+  LogicSource
+    PinName            : lane_2/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel2/Q
+  LogicSink            : lane_2/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel2/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68326
+  Strategy             : lane_1/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/i_cpc_pcs_ami_interface/i_cpc_pcs_ami_inlet_non_acu/o_localtxpresetcoef_valid_ami/Q
+  Sink                 : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  StrategyNodeInfo
+    StrategyNode       : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_localtxcoefvalid
+    IsHetero           : true
+  SegmentSourceDomain  : lane_1/datablock
+  SegmentSinkDomain    : lane_1/datablock
+  LogicSource
+    PinName            : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/i_cpc_pcs_ami_interface/i_cpc_pcs_ami_inlet_non_acu/o_localtxpresetcoef_valid_ami/Q
+  LogicSink            : lane_1/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68332
+  Strategy             : lane_1/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_1/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_diven/Q[0]
+  Sink                 : lane_1/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdiven/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_1/iso_to_ana/i_txclkdiven[0]
+  SegmentSourceDomain  : lane_1/datablock
+  SegmentSinkDomain    : lane_1/datablock
+  LogicSource
+    PinName            : lane_1/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_diven/Q[0]
+  LogicSink            : lane_1/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdiven/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68341
+  Strategy             : lane_2/dl_ugt/dl_sus_to_ugt_and_iso
+  Source
+    PinName            : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_phy_pmc_pmctrl_digpwr_stable_post_scan
+  Sink                 : lane_2/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  StrategyNodeInfo
+    StrategyNode       : lane_2/pcs_acu_glue/acu_top0/acu_gaonwell_top0/is_phy_pmc_pmctrl_digpwr_stable
+    IsHetero           : true
+  SegmentSourceDomain  : lane_2/dl_sus
+  SegmentSinkDomain    : lane_2/datablock
+  LogicSource
+    PinName            : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/acu_suswell_pwrctrl0/os_phy_pmc_pmctrl_digpwr_stable_post_scan
+  LogicSink            : lane_2/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  DomainSource         : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/os_phy_pmc_pmctrl_digpwr_stable
+  DomainSink           : lane_2/pcs_acu_glue/acu_top0/acu_suswell_top0/os_phy_pmc_pmctrl_digpwr_stable
+  SourceInfo
+    PowerNet
+      NetName          : lane_2/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_2/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68342
+  Strategy             : lane_4/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_getlocalpresetcoef
+  Sink                 : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  StrategyNodeInfo
+    StrategyNode       : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_getlocalpresetcoef
+    IsHetero           : true
+  SegmentSourceDomain  : lane_4/datablock
+  SegmentSinkDomain    : lane_4/datablock
+  LogicSource
+    PinName            : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_getlocalpresetcoef
+  LogicSink            : lane_4/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_4/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_4/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68345
+  Strategy             : lane_15/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  Sink                 : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_enter_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_15/datablock
+  SegmentSinkDomain    : lane_15/datablock
+  LogicSource
+    PinName            : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  LogicSink            : lane_15/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_15/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_15/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68349
+  Strategy             : lane_11/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  Sink                 : lane_11/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  StrategyNodeInfo
+    StrategyNode       : lane_11/pcs_acu_glue/acu_top0/acu_suswell_top0/is_pcs_susclk_req
+  SegmentSourceDomain  : lane_11/dl_sus
+  SegmentSinkDomain    : lane_11/datablock
+  LogicSource
+    PinName            : lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  LogicSink            : lane_11/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  DomainSource         : lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  DomainSink           : lane_11/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  SourceInfo
+    PowerNet
+      NetName          : lane_11/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_11/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68355
+  Strategy             : lane_14/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_14/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  Sink                 : lane_14/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : lane_14/pcs_acu_glue/acu_top0/acu_suswell_top0/i_pmd_save_done
+    IsHetero           : true
+  SegmentSourceDomain  : lane_14/datablock
+  SegmentSinkDomain    : lane_14/datablock
+  LogicSource
+    PinName            : lane_14/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  LogicSink            : lane_14/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_14/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_14/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68375
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_wren
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/final_iram_wren
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_wren
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_wren
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/final_iram_wren
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68376
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ramwrap_cmn
+  Source
+    PinName            : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_1_ramwrap_gen[59].retiming_ctech/ctech_so_dfx_fscan_latch_out/ctech_lib_dq_dcszo1/o
+  Sink                 : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_0_hookup_gen[59].retiming_ctech/ctech_so_dfx_fscan_retime_ff_reg/ctech_lib_clk_ffb_rstb_dcszo1/d
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/ramwrap/uc_ramwrap_iso_inst/test_so_from_ram[0]
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_1_ramwrap_gen[59].retiming_ctech/ctech_so_dfx_fscan_latch_out/ctech_lib_dq_dcszo1/o
+  LogicSink            : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_0_hookup_gen[59].retiming_ctech/ctech_so_dfx_fscan_retime_ff_reg/ctech_lib_clk_ffb_rstb_dcszo1/d
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68377
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ramwrap_cmn
+  Source
+    PinName            : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_ramwrap_gen[60].retiming_ctech/ctech_so_dfx_fscan_latch_out/ctech_lib_dq_dcszo1/o
+  Sink                 : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_1_hookup_gen[60].retiming_ctech/ctech_so_dfx_fscan_retime_ff_reg/ctech_lib_clk_ffb_rstb_dcszo1/d
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/ramwrap/uc_ramwrap_iso_inst/test_so_from_ram[1]
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_ramwrap_gen[60].retiming_ctech/ctech_so_dfx_fscan_latch_out/ctech_lib_dq_dcszo1/o
+  LogicSink            : com0/cmnlogic/cmn_retiming_fub/cpc_cmn_retiming_fub_sdi_inst/uc_ucclk_sdi_1_hookup_gen[60].retiming_ctech/ctech_so_dfx_fscan_retime_ff_reg/ctech_lib_clk_ffb_rstb_dcszo1/d
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68378
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[8]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[6]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[8]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[8]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[6]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68379
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[2]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[2]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[2]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68380
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_wren[2]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram1_interface_inst/FUNC_DATABYTWE_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_wren[2]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_wren[2]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram1_interface_inst/FUNC_DATABYTWE_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68381
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[2]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_addr[2]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[2]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68387
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[13]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/final_iram_addr[13]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[13]
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[13]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/final_iram_addr[13]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68388
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[3]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[3]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[3]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68389
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[11]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[9]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[11]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[11]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[9]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68390
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_wren[2]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram1_interface_inst/FUNC_DATABYTWE_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_wren[2]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_wren[2]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram1_interface_inst/FUNC_DATABYTWE_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68391
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[10]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[8]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[10]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[10]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[8]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68392
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/diggated_clkrst_ctrl_inst/cri_cnt_done_dblsync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/o
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/i_cri_cnt_done
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/diggated_clkrst_ctrl_inst/cri_cnt_done_dblsync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/o
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68393
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_crislv/i_cmn_dig_reg/cmn_dig_cmn_dig_dword38/Q[18]
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/i_dl_calib_cnt_cfg[0]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_crislv/i_cmn_dig_reg/cmn_dig_cmn_dig_dword38/Q[18]
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68394
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/i_cmn_dfxovrd_dig/pllen_h_pll1_dfxovr_mux/ctech_lib_mux_2to1_inst/ctech_lib_mux_2to1_dcszo1/o
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/in_soc_pll1en_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/i_cmn_dfxovrd_dig/pllen_h_pll1_dfxovr_mux/ctech_lib_mux_2to1_inst/ctech_lib_mux_2to1_dcszo1/o
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68395
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/ana_pwr_ctrl_cl/o_pwrack/Q
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/i_cl_anapwr_ack
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/ana_pwr_ctrl_cl/o_pwrack/Q
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68396
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/criclk_req_h_dblsync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/o
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[6]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/id_cri_pending_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/criclk_req_h_dblsync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/o
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[6]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68397
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/pll1_active
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/id_pll1ok_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/pll1_active
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68398
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/pll2_active
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/id_pll2ok_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/pll2_active
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68399
+  Strategy             : lane_5/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_getlocalpresetcoef
+  Sink                 : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  StrategyNodeInfo
+    StrategyNode       : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_getlocalpresetcoef
+    IsHetero           : true
+  SegmentSourceDomain  : lane_5/datablock
+  SegmentSinkDomain    : lane_5/datablock
+  LogicSource
+    PinName            : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_getlocalpresetcoef
+  LogicSink            : lane_5/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_5/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_5/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68400
+  Strategy             : lane_1/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_1/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[1]
+  Sink                 : lane_1/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[1].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_1/iso_to_ana/i_txclksel[1]
+  SegmentSourceDomain  : lane_1/datablock
+  SegmentSinkDomain    : lane_1/datablock
+  LogicSource
+    PinName            : lane_1/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[1]
+  LogicSink            : lane_1/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[1].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_1/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68401
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_wren
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/final_iram_wren
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_wren
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_wren
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/final_iram_wren
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68402
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[5]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[3]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[5]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[5]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68403
+  Strategy             : com0/cmn_ugt/cmn_sus_to_dig_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_suswell/cpc_cmn_sus_storage0/o_early_boot_done
+  Sink                 : com0/cmnlogic/firm_ware_downloader/ip_ready_sync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/d
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/i_early_boot_done
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmn_sus
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_suswell/cpc_cmn_sus_storage0/o_early_boot_done
+  LogicSink            : com0/cmnlogic/firm_ware_downloader/ip_ready_sync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/d
+  DomainSource         : com0/cmnlogic/cmn_suswell/o_early_boot_done
+  DomainSink           : com0/cmnlogic/cmn_suswell/o_early_boot_done
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68404
+  Strategy             : com0/cmn_ugt/cmn_sus_to_dig_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_suswell/os_phy_pmc_clcore_pwr_stable
+  Sink                 : com0/cmnlogic/cmn_crislv/i_cmn_dfx_regs/cfg_cmn_dfx_cl_dfx_status_reg0[6]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/i_phy_pmc_corepwr_stable
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmn_sus
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_suswell/os_phy_pmc_clcore_pwr_stable
+  LogicSink            : com0/cmnlogic/cmn_crislv/i_cmn_dfx_regs/cfg_cmn_dfx_cl_dfx_status_reg0[6]
+  DomainSource         : com0/cmnlogic/cmn_suswell/os_phy_pmc_clcore_pwr_stable
+  DomainSink           : com0/cmnlogic/cmn_suswell/os_phy_pmc_clcore_pwr_stable
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68405
+  Strategy             : com0/cmn_ugt/cmn_sus_to_dig_or_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_suswell/ret_sleep_en_h
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/i_dg_ret_sleep_en_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmn_sus
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_suswell/ret_sleep_en_h
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : com0/cmnlogic/cmn_suswell/o_ret_sleep_en_h
+  DomainSink           : com0/cmnlogic/cmn_suswell/o_ret_sleep_en_h
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68406
+  Strategy             : com0/cmn_ugt/diggt_dig_and_iso
+  Source
+    PinName            : com0/cmnlogic/uc_unit/uc_crislv1/cmn_uc_regs_inst/cmn_uc_cmn_uc_dword0/Q[0]
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/i_firmwr_dwnld_done
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/uc_crislv1/cmn_uc_regs_inst/cmn_uc_cmn_uc_dword0/Q[0]
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68407
+  Strategy             : com0/cmn_ugt/cldiggt_to_dl_clk_iso
+  Source
+    PinName            : com0/cmnlogic/i_cpc_cmn_left_abut/o_dfx_left_mux_bscan_tdi
+  Sink                 : com0/cmnlogic/i_cpc_cmn_right_abut/i_dfx_right_bscan_tdo
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/i_cpc_cmn_right_abut/i_dfx_right_bscan_tdo
+  SegmentSourceDomain  : com0/cmn_ugt
+  SegmentSinkDomain    : com0/cmn_ugt
+  LogicSource
+    PinName            : com0/cmnlogic/i_cpc_cmn_left_abut/o_dfx_left_mux_bscan_tdi
+  LogicSink            : com0/cmnlogic/i_cpc_cmn_right_abut/i_dfx_right_bscan_tdo
+  DomainSource         : com0/cmnlogic/i_cpc_cmn_left_abut/o_dfx_left_mux_bscan_tdi
+  DomainSink           : com0/cmnlogic/i_cpc_cmn_right_abut/i_dfx_right_bscan_tdo
+  SourceInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68408
+  Strategy             : com0/cmn_ugt/cldiggt_to_dl_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_dfx_gated/cmn_dfxmaster/odfx_bscan_tdo/Q
+  Sink                 : lane_7/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_tx_bscan/bscancell_txn/i_shiftin
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/i_cpc_cmn_left_abut/i_dfx_left_bscan_tdo
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : lane_7/datablock
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_dfx_gated/cmn_dfxmaster/odfx_bscan_tdo/Q
+  LogicSink            : lane_7/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_tx_bscan/bscancell_txn/i_shiftin
+  DomainSource         : lane_7/i_dfx_right_bscan_tdi
+  DomainSink           : lane_7/i_dfx_right_bscan_tdi
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_7/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68409
+  Strategy             : lane_12/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_getlocalpresetcoef
+  Sink                 : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  StrategyNodeInfo
+    StrategyNode       : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/i_getlocalpresetcoef
+    IsHetero           : true
+  SegmentSourceDomain  : lane_12/datablock
+  SegmentSinkDomain    : lane_12/datablock
+  LogicSource
+    PinName            : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/i_getlocalpresetcoef
+  LogicSink            : lane_12/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_12/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_12/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68410
+  Strategy             : com0/cmn_ugt/cldiggt_to_dl_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_reflogic/od_cmnckt_dgpmon_en_h
+  Sink                 : com0/cmn_anatop/i_dkl_com_pmon_enablepmon_h
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmndig_dl_iso/i_cmnckt_dgpmon_en_h
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_reflogic/od_cmnckt_dgpmon_en_h
+  LogicSink            : com0/cmn_anatop/i_dkl_com_pmon_enablepmon_h
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_CSN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_CSN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68420
+  Strategy             : com0/cmn_ugt/cmn_sus_to_dig_or_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_suswell/isolation_en_h
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/is_dg_isolation_en_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmn_sus
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_suswell/isolation_en_h
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : com0/cmnlogic/cmn_suswell/os_dg_isolation_en_h
+  DomainSink           : com0/cmnlogic/cmn_suswell/os_dg_isolation_en_h
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68425
+  Strategy             : com0/cmn_ugt/diggt_dig_and_iso
+  Source
+    PinName            : com0/cmnlogic/i_cpc_cmn_right_abut/o_dfx_right_mux_bscan_tdi
+  Sink                 : o_com0_dfx_abscan_tdo
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/i_dfx_abscan_tdo
+  SegmentSourceDomain  : com0/cmn_ugt
+  SegmentSinkDomain    : dklntciox16top
+  LogicSource
+    PinName            : com0/cmnlogic/i_cpc_cmn_right_abut/o_dfx_right_mux_bscan_tdi
+  LogicSink            : o_com0_dfx_abscan_tdo
+  DomainSource         : com0/cmnlogic/i_cpc_cmn_right_abut/o_dfx_right_mux_bscan_tdi
+  DomainSink           : o_com0_dfx_abscan_tdo
+  SourceInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_SRSN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_SRSN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68426
+  Strategy             : com0/cmn_ugt/cmn_sus_to_dig_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_suswell/cpc_cmn_sus_storage0/o_phy_pmc_sbpwr_stable_aon
+  Sink                 : com0/cmnlogic/cmn_crislv/i_cmn_dfx_regs/cfg_cmn_dfx_cl_dfx_status_reg0[5]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/is_phy2pmc_sbpwr_stable_h
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmn_sus
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_suswell/cpc_cmn_sus_storage0/o_phy_pmc_sbpwr_stable_aon
+  LogicSink            : com0/cmnlogic/cmn_crislv/i_cmn_dfx_regs/cfg_cmn_dfx_cl_dfx_status_reg0[5]
+  DomainSource         : com0/cmnlogic/cmn_suswell/o_phy_pmc_sbpwr_stable_aon
+  DomainSink           : com0/cmnlogic/cmn_suswell/o_phy_pmc_sbpwr_stable_aon
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68427
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_wren[0]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_DATABYTWE_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_wren[0]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_wren[0]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_DATABYTWE_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68428
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[7]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_addr[7]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[7]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68429
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_rden
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_REN_SSA
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_rden
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_rden
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_REN_SSA
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68430
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[3]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_addr[3]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[3]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68431
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[6]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[4]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_addr[6]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[6]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68432
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[9]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[7]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_addr[9]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[9]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[7]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68433
+  Strategy             : com0/cmn_ugt/cmn_sus_to_dig_or_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_suswell/cpc_cmn_pwrctrl0/o_ana_isolation_en_post_scan
+  Sink                 : com0/cmn_anatop/i_dkl_com_idig_vcca_g_isolation_en
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_vnnaonwell/i_ana_isolation_en
+  SegmentSourceDomain  : com0/cmn_sus
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_suswell/cpc_cmn_pwrctrl0/o_ana_isolation_en_post_scan
+  LogicSink            : com0/cmn_anatop/i_dkl_com_idig_vcca_g_isolation_en
+  DomainSource         : com0/cmnlogic/cmn_suswell/o_ana_isolation_en
+  DomainSink           : com0/cmnlogic/cmn_suswell/o_ana_isolation_en
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_CSN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_CSN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68434
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[3]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[3]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[3]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68435
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[6]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[4]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[6]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[6]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68436
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[12]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[10]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[12]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[12]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[10]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68437
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[4]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[2]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[4]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[4]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68438
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[7]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[7]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[7]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68439
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[10]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[8]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_iram_addr[10]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_iram_addr[10]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[8]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68440
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_wren[3]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram1_interface_inst/FUNC_DATABYTWE_SSA_IN[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_wren[3]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_wren[3]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram1_interface_inst/FUNC_DATABYTWE_SSA_IN[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68441
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[2]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[2]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[2]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68442
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[4]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[2]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[4]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[4]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68443
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[7]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[7]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[7]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68444
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[8]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[6]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[8]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[8]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[6]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68445
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[11]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[9]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_addr[11]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_addr[11]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[9]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68446
+  Strategy             : lane_5/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_5/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel2/Q
+  Sink                 : lane_5/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel2/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_5/iso_to_ana/i_txclksel2
+  SegmentSourceDomain  : lane_5/datablock
+  SegmentSinkDomain    : lane_5/datablock
+  LogicSource
+    PinName            : lane_5/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel2/Q
+  LogicSink            : lane_5/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel2/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_5/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_5/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68447
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[6]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[4]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[6]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[6]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[4]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68448
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[9]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[7]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[9]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[9]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[7]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68449
+  Strategy             : lane_14/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  Sink                 : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_enter_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_14/datablock
+  SegmentSinkDomain    : lane_14/datablock
+  LogicSource
+    PinName            : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  LogicSink            : lane_14/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_14/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_14/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68450
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/firmware_download_in_progress_dblsync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/o
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/i_firmwr_dwnld_in_prog
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/firmware_download_in_progress_dblsync/ctech_lib_doublesync_rstb_inst/ctech_lib_doublesync_rstb_dcszo1[0]/o
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68451
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[2]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[2]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[2]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68452
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[4]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[2]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[4]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[4]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[2]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68453
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[7]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[7]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[7]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[5]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68454
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[8]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[6]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_iram_addr[8]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_iram_addr[8]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/iram0_interface_inst/FUNC_ADDR_SSA_IN[6]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68455
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_wren[1]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_DATABYTWE_SSA_IN[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_wren[1]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_wren[1]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_DATABYTWE_SSA_IN[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68456
+  Strategy             : com0/cmn_sus/cmn_diggt_to_sus_and_iso
+  Source
+    PinName            : com0/cmnlogic/cmn_crislv/i_cmn_dig_reg/cmn_dig_cmn_dig_dword38/Q[19]
+  Sink                 : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/cmn_suswell/i_dl_calib_cnt_cfg[1]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/cmn_crislv/i_cmn_dig_reg/cmn_dig_cmn_dig_dword38/Q[19]
+  LogicSink            : com0/cmnlogic/cmn_dfx_gated/cmn_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68457
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[0]
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_txclksel[0]
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[0]
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68458
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[1]
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[1].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_txclksel[1]
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_sel/Q[1]
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clksel/gen_dfxprot[1].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68460
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/ecar_lfps_enable/Q
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_rx_dfx_top/i_pmd_lane_rx_dfx_corewell/i_pmd_lane_rx_dfx_corewell_prot/i_dfx_over_idig_rx_lfps_pen/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_rx_lfps_pen
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/ecar_lfps_enable/Q
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_rx_dfx_top/i_pmd_lane_rx_dfx_corewell/i_pmd_lane_rx_dfx_corewell_prot/i_dfx_over_idig_rx_lfps_pen/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68461
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/ecar_lfps_enable/Q
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_rx_dfx_top/i_pmd_lane_rx_dfx_corewell/i_pmd_lane_rx_dfx_corewell_prot/i_dfx_over_idig_rx_lfps_nen/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_rx_lfps_nen
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/ecar_lfps_enable/Q
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_rx_dfx_top/i_pmd_lane_rx_dfx_corewell/i_pmd_lane_rx_dfx_corewell_prot/i_dfx_over_idig_rx_lfps_nen/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68462
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_div_sel/Q[0]
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdivsel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_txclkdivsel[0]
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_div_sel/Q[0]
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdivsel/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68463
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_div_sel/Q[1]
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdivsel/gen_dfxprot[1].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_txclkdivsel[1]
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_div_sel/Q[1]
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdivsel/gen_dfxprot[1].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68464
+  Strategy             : lane_0/dl_dig_to_ana/dl_dig_to_ana_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_diven/Q[0]
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdiven/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  StrategyNodeInfo
+    StrategyNode       : lane_0/iso_to_ana/i_txclkdiven[0]
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_car_top_ins/dcar_rtt0_ins/dcar_pmd_lane_logic_rtt0_ins/o_tx_ana_clk_diven/Q[0]
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/i_pmd_lane_dfx_top/i_pmd_lane_tx_dfx_top/i_pmd_lane_tx_dfx_corewell/i_pmd_lane_tx_dfx_corewell_prot/i_dfx_over_idig_tx_clkdiven/gen_dfxprot[0].i_dfx_prot_mux/ctech_lib_mux_2to1_dcszo1/b
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68476
+  Strategy             : lane_0/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  Sink                 : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_enter_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  LogicSink            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68477
+  Strategy             : lane_0/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/o_not_gen3
+  Sink                 : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  StrategyNodeInfo
+    StrategyNode       : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_not_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/o_not_gen3
+  LogicSink            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68478
+  Strategy             : lane_0/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_0/pcs_acu_glue/acu_top0/acu_gaonwell_top0/ig_cri_add_int[13]
+  Sink                 : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/suswel_ins/suswel_regs_ins/dkl_pmd_lane_suswel_section_regs_ins/cri_addr[13]
+  StrategyNodeInfo
+    StrategyNode       : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/suswel_ins/idkl_pmd_icri_addr[13]
+  SegmentSourceDomain  : lane_0/dl_ugt
+  SegmentSinkDomain    : lane_0/dl_sus
+  LogicSource
+    PinName            : lane_0/pcs_acu_glue/acu_top0/acu_gaonwell_top0/ig_cri_add_int[13]
+  LogicSink            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/suswel_ins/suswel_regs_ins/dkl_pmd_lane_suswel_section_regs_ins/cri_addr[13]
+  DomainSource         : lane_0/pcs_acu_glue/acu_top0/acu_gaonwell_top0/od_cri_add[13]
+  DomainSink           : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/suswel_ins/idkl_pmd_icri_addr[13]
+  SourceInfo
+    PowerNet
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68479
+  Strategy             : lane_0/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  Sink                 : lane_0/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  StrategyNodeInfo
+    StrategyNode       : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/is_pcs_susclk_req
+  SegmentSourceDomain  : lane_0/dl_sus
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  LogicSink            : lane_0/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[1]
+  DomainSource         : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  DomainSink           : lane_0/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_suswelltop0/o_pcs_susclk_req
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdsus_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68480
+  Strategy             : lane_0/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  Sink                 : lane_0/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  StrategyNodeInfo
+    StrategyNode       : lane_0/pcs_acu_glue/acu_top0/acu_suswell_top0/i_pmd_save_done
+    IsHetero           : true
+  SegmentSourceDomain  : lane_0/datablock
+  SegmentSinkDomain    : lane_0/datablock
+  LogicSource
+    PinName            : lane_0/pmd_top/dekel_pmd_duo_ins/dekel_pmd_lane_rtt0_ins/pmd_calib_top1/pmd_ana_save_restore1/save_done/Q
+  LogicSink            : lane_0/pcs_acu_glue/acu_top0/acu_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[3]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68481
+  Strategy             : com0/cmn_ramsus_uc1_ram0/cmn_diggt_to_ramsus_and_uc1_ram0
+  Source
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[10]
+  Sink                 : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[8]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit/uc_iso_inst/final_dram_addr[10]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit/final_dram_addr[10]
+  LogicSink            : com0/cmnlogic/uc_unit/ramwrap/dram0_interface_inst/FUNC_ADDR_SSA_IN[8]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68482
+  Strategy             : com0/cmn_ramsus_uc2/cmn_diggt_to_ramsus_and_uc2
+  Source
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_wren[1]
+  Sink                 : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_DATABYTWE_SSA_IN[1]
+  StrategyNodeInfo
+    StrategyNode       : com0/cmnlogic/uc_unit_x16/uc_iso_inst/final_dram_wren[1]
+    IsHetero           : true
+  SegmentSourceDomain  : com0/cmnlane
+  SegmentSinkDomain    : com0/cmnlane
+  LogicSource
+    PinName            : com0/cmnlogic/uc_unit_x16/final_dram_wren[1]
+  LogicSink            : com0/cmnlogic/uc_unit_x16/ramwrap/dram0_interface_inst/FUNC_DATABYTWE_SSA_IN[1]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : com0/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+
+  -----------------------------------------------------------------------------
+  Tag                  : ISO_STRATEGY_REDUND
+  Description          : Isolation not required, but isolation strategy [Strategy] defined at crossing from [Source] to [Sink]
+  Violation            : LP:68493
+  Strategy             : lane_8/dl_sus/dl_dig_to_sus_and_iso
+  Source
+    PinName            : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  Sink                 : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  StrategyNodeInfo
+    StrategyNode       : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_aonwelltop0/i_enter_gen3
+    IsHetero           : true
+  SegmentSourceDomain  : lane_8/datablock
+  SegmentSinkDomain    : lane_8/datablock
+  LogicSource
+    PinName            : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/cpc_pcs_corewelltop0/cpc_pcs_lane_controller0/cpc_pcs_rxpwrfsm0/o_g3_aftercal/Q
+  LogicSink            : lane_8/pcs_acu_glue/cpc_pcs_mg_wrapper/pcs/cpc_pcs_base0/base_visa_unit_mux0/mux_body/non_or_pre_gasket.lane_lp[0].mux_stage/lmux.lane_mux/lane_out[0]
+  DomainSource         : (NA)
+  DomainSink           : (NA)
+  SourceInfo
+    PowerNet
+      NetName          : lane_8/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+  SinkInfo
+    PowerNet
+      NetName          : lane_8/vccdig_gt_out_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
+

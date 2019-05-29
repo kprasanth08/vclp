@@ -1,0 +1,31 @@
+  Tag                  : LS_SUPPLY_UNAVAIL
+  Description          : Level shifter supply net [UPFSupply] for strategy [Strategy] is domain dependent but not available in domain [Domain]
+  Violation            : LP:71761
+  UPFSupply            : vccaon_1p0_lv
+  Strategy             : com0/cmn_ugt_socside_in/aon_vccdig_ls
+  Domain               : com0/cmn_ugt_socside_in
+  Source:
+    PinName            : i_com0_vcca_powergood
+  Sink                 : com0/cmnlogic/core_in_els_ugt/ctech_buf_o_vcca_pwrgood/ctech_lib_clk_buf_ints/ctech_lib_clk_buf_dcszo1/clk
+  LogicSource:
+    PinName            : i_com0_vcca_powergood
+  LogicSink            : lane_0/o_cl_to_dl_spare[1]
+  LogicSinkShortened   : True
+  SourceInfo:
+    PowerNet:
+      NetName          : vccaon_1p0_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_SRSN
+    GroundNet:
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_SRSN
+  SinkInfo:
+    PowerNet:
+      NetName          : vccdig_lv
+      NetType          : UPF
+    PowerMethod        : FROM_UPF_POWER_DOMAIN
+    GroundNet:
+      NetName          : vss
+      NetType          : UPF
+    GroundMethod       : FROM_UPF_POWER_DOMAIN
